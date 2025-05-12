@@ -10,7 +10,6 @@ function DataSummary({ onBack, onSubmit }) {
   const { mortgageData } = useMortgageData()
 //   const [confirmOpen, setConfirmOpen] = useState(false)
 
-  // Calculate monthly payment (simplified)
   const calculateMonthlyPayment = () => {
     const principal = Number.parseFloat(mortgageData.loanAmount) || 300000
     const interestRate = 3.5 / 100 / 12 // Monthly interest rate
