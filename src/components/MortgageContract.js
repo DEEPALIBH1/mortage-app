@@ -89,11 +89,11 @@ function MortgageContract({ onNext }) {
           <Paper sx={{ p: 2, mt: 1, borderRadius: 2 }}>
             <Box
               component="img"
-              src="https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/TypesOfMortgages/types-of-mortgages-hero.jpg"
+              src="/mortgage_image.png"
               alt="Sample Mortgage Contract"
               sx={{
                 width: "100%",
-                height: "auto",
+                height: "70%",
                 borderRadius: 1,
                 boxShadow: 2,
               }}
